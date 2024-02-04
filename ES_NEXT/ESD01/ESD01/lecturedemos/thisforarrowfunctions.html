@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        window.addEventListener('load', function () {
+            //this:window
+            document.getElementsByTagName('div')[0].addEventListener('click', ()=> {
+            // this => div
+                let alllis = document.getElementsByTagName('li');
+                for (var i = 0; i < alllis.length; i++) {
+                    alllis[i].addEventListener('click',  ()=> {
+
+                        //this: li
+                        console.log(this.innerText);
+                    });//end of click for li
+                }
+            });//end of click on div
+        });//end of load
+    </script>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+    </div>
+</body>
+</html>

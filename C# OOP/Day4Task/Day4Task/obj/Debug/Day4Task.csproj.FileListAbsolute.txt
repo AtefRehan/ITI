@@ -1,0 +1,7 @@
+\\Mac\Home\Desktop\C#\week1\Day4Task\Day4Task\bin\Debug\Day4Task.exe
+\\Mac\Home\Desktop\C#\week1\Day4Task\Day4Task\bin\Debug\Day4Task.exe.config
+\\Mac\Home\Desktop\C#\week1\Day4Task\Day4Task\bin\Debug\Day4Task.pdb
+\\Mac\Home\Desktop\C#\week1\Day4Task\Day4Task\obj\Debug\Day4Task.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\C#\week1\Day4Task\Day4Task\obj\Debug\Day4Task.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\C#\week1\Day4Task\Day4Task\obj\Debug\Day4Task.exe
+\\Mac\Home\Desktop\C#\week1\Day4Task\Day4Task\obj\Debug\Day4Task.pdb

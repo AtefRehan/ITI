@@ -1,0 +1,14 @@
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/bin/Debug/net8.0/lab4
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/bin/Debug/net8.0/lab4.deps.json
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/bin/Debug/net8.0/lab4.runtimeconfig.json
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/bin/Debug/net8.0/lab4.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/bin/Debug/net8.0/lab4.pdb
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/obj/Debug/net8.0/lab4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/obj/Debug/net8.0/lab4.AssemblyInfoInputs.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/obj/Debug/net8.0/lab4.AssemblyInfo.cs
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/obj/Debug/net8.0/lab4.csproj.CoreCompileInputs.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/obj/Debug/net8.0/lab4.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/obj/Debug/net8.0/refint/lab4.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/obj/Debug/net8.0/lab4.pdb
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/obj/Debug/net8.0/lab4.genruntimeconfig.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/lab4/obj/Debug/net8.0/ref/lab4.dll

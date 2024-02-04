@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function Person(_id,_name) {
+            this.ID = _id;
+            this.Name = _name;
+           /* var that = this;*/
+            setTimeout( ()=> {
+                //this
+                console.log( `ID = ${this.ID} - ${this.Name}`);
+            }, 4000);
+        }
+
+       // let ali = new Person(100, "Ali");
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

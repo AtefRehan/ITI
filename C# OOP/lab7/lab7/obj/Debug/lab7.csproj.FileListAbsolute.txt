@@ -1,0 +1,6 @@
+/Users/atef/Desktop/C#/week1/lab7/lab7/bin/Debug/lab7.exe.config
+/Users/atef/Desktop/C#/week1/lab7/lab7/bin/Debug/lab7.exe
+/Users/atef/Desktop/C#/week1/lab7/lab7/bin/Debug/lab7.pdb
+/Users/atef/Desktop/C#/week1/lab7/lab7/obj/Debug/lab7.csproj.CoreCompileInputs.cache
+/Users/atef/Desktop/C#/week1/lab7/lab7/obj/Debug/lab7.exe
+/Users/atef/Desktop/C#/week1/lab7/lab7/obj/Debug/lab7.pdb

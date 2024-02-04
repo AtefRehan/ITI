@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        // function : first class object
+        //1- send function to another function as paraeter : callback
+        //2- define function as avariable 
+        //3- return function from another fuction : closure 
+        //4- declare function as property within an object
+        //nasr
+        //function xyz(a, b) { return a - b;}
+        //[].sort(xyz);
+        //function displayitistudentsnames(allstds) {
+        //    allstds.forEach((stdname) => {
+        //        console.log(stdname);
+        //    })
+        //}
+        function getAllStudents(callback) {
+            setTimeout(function () {
+                console.log("From get all students");
+                let allstduentsarr = [{ ID: 100, Name: "Kareem" }, { ID: 200, Name: "Moustafa" }, { ID: 300, Name: "Mona" }];
+                //return allstduentsarr;
+                //displayAllStudents(allstduentsarr);
+                callback(displayAllDepts,allstduentsarr);
+            }, 4000);
+        }
+       // getAllStudents(displayitistudentsnames);
+        //ali
+        function displayAllStudents(callback,allstudents) {
+            setTimeout(function () {
+                console.log("From Display All students");
+                allstudents.forEach(function (std) { console.log(`ID = ${std.ID} , Name = ${std.Name}`); });
+                let alldepts = [{ DeptID: 1000, DeptName: "PD", DeptMgr: "Managerone" }, { DeptID: 2000, DeptName: "OS", DeptMgr: "Managertwo" }, { DeptID: 3000, DeptName: "AI", DeptMgr: "Managerthree" }];
+               // return alldepts;
+                //displayAllDepts(alldepts);
+                callback(displayAllManagers,alldepts);
+            }, 4000);
+        }
+        //mohamd
+        function displayAllDepts(callback,alldeptsarr) {
+            setTimeout(function () {
+                console.log("from display all departments");
+                let allmgrsarr = [];
+                alldeptsarr.forEach(function (dept) { console.log(`Dept ID = ${dept.DeptID} , Dept Name = ${dept.DeptName}`); allmgrsarr.push(dept.DeptMgr); });
+                //return allmgrsarr;
+                // displayAllManagers(allmgrsarr);
+                callback(allmgrsarr);
+
+            }, 4000);
+        }
+        //ibraheem
+        function displayAllManagers(allmgrarr) {
+            console.log('from display all managers');
+            allmgrarr.forEach(function (mgrname) { console.log(`Manager Name =  ${mgrname}`); });
+        }
+
+        //dina
+        getAllStudents(displayAllStudents);
+        //getAllStudents(function (callback, allstudents) {
+        //    setTimeout(function () {
+        //        console.log("From Display All students");
+        //        allstudents.forEach(function (std) { console.log(`ID = ${std.ID} , Name = ${std.Name}`); });
+        //        let alldepts = [{ DeptID: 1000, DeptName: "PD", DeptMgr: "Managerone" }, { DeptID: 2000, DeptName: "OS", DeptMgr: "Managertwo" }, { DeptID: 3000, DeptName: "AI", DeptMgr: "Managerthree" }];
+        //        // return alldepts;
+        //        //displayAllDepts(alldepts);
+        //        callback(displayAllManagers, alldepts);
+        //    }, 4000);
+        //});
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

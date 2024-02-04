@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        let Name = "Hamada";
+        class Person {
+            // fields : public (use this and you have to declare it inside constructor) | or private(you will declare it inside first level for class sing #) 
+            /* private  fields
+             * #ID=0
+             * */
+            #id = 0;
+            #name = "New Person";
+            #age = 20;
+            constructor(_id, _name, _age) {
+                /* public fields
+                this.ID = _id;
+                this.Name = _name;
+                this.Age = _age;
+                */
+                // assign values for private fields
+                //this.#id = _id;
+                this.ID=_id;
+                /*this.#name = _name;*/
+                this.Name = _name;
+                //this.#age = _age;
+                this.Age = _age;
+
+            }
+            /*
+            //member methods
+            // setters and getter
+            //setId(_id) {
+            //    if (_id > 0) this.#ID = _id;
+            //}
+            //getID() {
+            //    return this.#ID;
+            //}
+            //setName(_name) {
+            //    if (_name.trim().length >= 3) this.#Name = _name;
+            //}
+            //getName() {
+            //    return this.#Name;
+            //}
+            //setAge(_age) {
+            //    if (_age > 0) this.#Age = _age;
+            //}
+            //getAge() {
+            //    return this.#Age;
+            //}
+            */
+            // properties using two accessors : set | get
+            set ID(_Id) {
+                if (_Id > 0) {
+                    this.#id = _Id;
+                }
+            }
+            get ID() {
+                return    this.#id ; 
+            }
+
+            set Name(_name) {
+                if (_name.trim().length >= 3) {
+                    this.#name = _name;
+                }
+            }
+            get Name() {
+                return this.#name;
+            }
+            set Age(_age) {
+                if (_age > 0) {
+                    this.#age = _age;
+                }
+            }
+            get Age() {
+                return this.#age;
+            }
+
+            // methods (member | instance method : must called using an object of this type)
+            Print() {
+                //return `ID = ${this.ID} , Name = ${this.Name}`;
+                /*return `ID = ${this.#id} , Name = ${this.#name} , Age = ${this.#age}`;*/
+                return `ID = ${this.ID} , Name = ${this.Name} , Age = ${this.Age}`;
+            }
+            static GetIdentity() {
+                return "From Person Class";
+            }
+
+        }
+        //let ali = new Person(100, "li", 20);
+        //ali.setName("Ali Mahmoud");
+        //console.log(ali.getName());
+        //console.log(ali.Print());
+        //Person();// call for function
+
+       /* let ali = new Person(100, "Ali", 20);*/
+        //console.log(`ID = ${ali.ID}`);
+        //ali.ID = -100;
+        //console.log(ali.Print());
+        //let ali = new Person(200, "Ali", 20);
+        //let ahmed = new Person(300, "Ahmed", 25);
+        /*ali.ID=10;*/
+        //ali.ID = -100;
+        //console.log(ali.Print());
+        //console.log(ahmed.Print());
+        /*console.log(ali.GetIdentity());
+        console.log(ahmed.GetIdentity());*/
+       // console.log(Person.GetIdentity());
+    </script>
+</head>
+<body>
+
+</body>
+</html>

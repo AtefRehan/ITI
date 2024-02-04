@@ -1,0 +1,14 @@
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\bin\Debug\net8.0\Demo1HashSet.exe
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\bin\Debug\net8.0\Demo1HashSet.deps.json
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\bin\Debug\net8.0\Demo1HashSet.runtimeconfig.json
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\bin\Debug\net8.0\Demo1HashSet.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\bin\Debug\net8.0\Demo1HashSet.pdb
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\obj\Debug\net8.0\Demo1HashSet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\obj\Debug\net8.0\Demo1HashSet.AssemblyInfoInputs.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\obj\Debug\net8.0\Demo1HashSet.AssemblyInfo.cs
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\obj\Debug\net8.0\Demo1HashSet.csproj.CoreCompileInputs.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\obj\Debug\net8.0\Demo1HashSet.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\obj\Debug\net8.0\refint\Demo1HashSet.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\obj\Debug\net8.0\Demo1HashSet.pdb
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\obj\Debug\net8.0\Demo1HashSet.genruntimeconfig.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo1HashSet\obj\Debug\net8.0\ref\Demo1HashSet.dll

@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let arr = [10, 20, 100, -30, -80, 1000, -300];
+
+      let ascendingSort = arr.sort((a, b) => a - b);
+
+      let descindingSort = arr.sort((a, b) => b - a);
+
+      //   console.log("ascendingSort is  " + ascendingSort);
+      //   console.log("descindingSort is  " + descindingSort);
+
+      //------------------------------------------------------------------------------------------------
+      let filtered = arr.filter((elem) => elem > 50);
+      console.log(filtered);
+
+      //------------------------------------------------------------------------------------------------
+      let max = Math.max(...arr);
+      let min = Math.min(...arr);
+      //   console.log(max);
+      //   console.log(min);
+
+      //------------------------------------------------------------------------------------------------
+      const operations = {
+        "+": "summation",
+        "*": "muliplication",
+      };
+      function operation(operator, ...arr) {
+        return `result of ${operations[operator]} for ${arr} is ${eval(arr.join(operator))}`;
+      }
+        console.log(operation("+",...arr));
+      // let result = (operator, ...arr) => eval(arr.join(operator));
+      // console.log(result('+',...arr));
+    </script>
+  </body>
+</html>

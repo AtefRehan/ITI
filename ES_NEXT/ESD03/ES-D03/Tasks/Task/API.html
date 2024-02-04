@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table id="table">
+
+    </table>
+
+    <script>
+      table = document.getElementById("table");
+
+      async function gettingData() {
+        alldata = await fetch("https://jsonplaceholder.typicode.com/posts");
+
+        alldatajs = await alldata.json();
+        // console.log(alldatajs);
+
+        for (let i = 0; i < alldatajs.length; i++) {
+          tableRow = document.createElement("tr");
+
+          for(prop in alldatajs[i]) {
+            console.log(prop);
+            console.log(alldatajs[i][prop]);
+            tabletd= document.createElement("td");
+            tabletd.innerText = alldatajs[i][prop];
+             tableRow.appendChild(tabletd);
+          }
+
+         
+
+      
+          table.appendChild(tableRow);
+
+        }
+        
+      }
+      gettingData();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\bin\Debug\net8.0\Demo7Delegate2.exe
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\bin\Debug\net8.0\Demo7Delegate2.deps.json
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\bin\Debug\net8.0\Demo7Delegate2.runtimeconfig.json
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\bin\Debug\net8.0\Demo7Delegate2.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\bin\Debug\net8.0\Demo7Delegate2.pdb
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\obj\Debug\net8.0\Demo7Delegate2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\obj\Debug\net8.0\Demo7Delegate2.AssemblyInfoInputs.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\obj\Debug\net8.0\Demo7Delegate2.AssemblyInfo.cs
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\obj\Debug\net8.0\Demo7Delegate2.csproj.CoreCompileInputs.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\obj\Debug\net8.0\Demo7Delegate2.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\obj\Debug\net8.0\refint\Demo7Delegate2.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\obj\Debug\net8.0\Demo7Delegate2.pdb
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\obj\Debug\net8.0\Demo7Delegate2.genruntimeconfig.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo7Delegate2\obj\Debug\net8.0\ref\Demo7Delegate2.dll

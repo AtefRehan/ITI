@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LocalStorage</title>
+  </head>
+  <style>
+    img {
+      width: 30px;
+    }
+  </style>
+  <body>
+    <img src="" />
+    <script>
+
+
+      function getLocalStorge(key) {
+        return JSON.parse(localStorage.getItem(key));
+      }
+      let dataObj = getLocalStorge("Data");
+      console.log(dataObj.age);
+
+      document.write(
+        "Welcome :" +
+          "<font color =" +
+          dataObj.color +
+          ">" +
+          dataObj.name +
+          "</font>" +
+          "<br> "
+      );
+      document.write("Color :" + dataObj.color);
+
+      var img = document.querySelector("img");
+      if (dataObj.gender === "male") {
+        img.src = "img2.jpg";
+      } else {
+        img.src = "img1.jpg";
+      }
+
+      // function getCookie(key) {
+      //   const cookies = document.cookie.split("; ");
+      //   for (const cookie of cookies) {
+      //     const [cookieKey, cookieValue] = cookie.split("=");
+      //     if (cookieKey === key) {
+      //       return cookieValue;
+      //     }
+      //   }
+      //   return null;
+      // }
+    </script>
+  </body>
+</html>

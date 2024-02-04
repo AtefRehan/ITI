@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+    <style>
+        img{
+            width: 150px;
+        }
+        input{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<form method="get" action="locations.html">
+    <label>Enter your name </label>
+    <input type="text" name="username" id="name" /><br/>
+    <label>Enter your age &nbsp;&nbsp;</label>
+    <input type="number" name="age" id="age"/><br/>
+    <br>
+    <label>Enter your gender </label>
+    <br>
+    <br>
+
+    <label><img src="male.png"></label>
+    <input type="radio" name="gender" value="male" >
+    <label><img src="female.png"></label>
+    <input type="radio" name="gender" value="female">
+    <br><br><br>
+    <label>select your favorite color</label>
+    <select name="color">
+        <option>Select ur fav color -- </option>
+        <option>red</option>
+        <option>blue</option>
+        <option>green</option>
+        <option>black</option>
+    </select>
+<br>
+<br>
+<br>
+    <input type="submit" value="send"/>
+</form>
+
+
+<script src="Task2.js"></script>
+
+<script>
+    document.forms[0].addEventListener("submit", function(){
+        saveLocalStorage();
+
+    });
+</script>
+</body>
+</html>

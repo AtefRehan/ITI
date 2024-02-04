@@ -1,0 +1,14 @@
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\bin\Debug\net8.0\Demo3Compare.exe
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\bin\Debug\net8.0\Demo3Compare.deps.json
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\bin\Debug\net8.0\Demo3Compare.runtimeconfig.json
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\bin\Debug\net8.0\Demo3Compare.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\bin\Debug\net8.0\Demo3Compare.pdb
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\obj\Debug\net8.0\Demo3Compare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\obj\Debug\net8.0\Demo3Compare.AssemblyInfoInputs.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\obj\Debug\net8.0\Demo3Compare.AssemblyInfo.cs
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\obj\Debug\net8.0\Demo3Compare.csproj.CoreCompileInputs.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\obj\Debug\net8.0\Demo3Compare.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\obj\Debug\net8.0\refint\Demo3Compare.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\obj\Debug\net8.0\Demo3Compare.pdb
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\obj\Debug\net8.0\Demo3Compare.genruntimeconfig.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3Compare\obj\Debug\net8.0\ref\Demo3Compare.dll

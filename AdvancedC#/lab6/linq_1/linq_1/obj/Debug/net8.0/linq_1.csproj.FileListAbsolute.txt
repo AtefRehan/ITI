@@ -1,0 +1,14 @@
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/bin/Debug/net8.0/linq_1
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/bin/Debug/net8.0/linq_1.deps.json
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/bin/Debug/net8.0/linq_1.runtimeconfig.json
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/bin/Debug/net8.0/linq_1.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/bin/Debug/net8.0/linq_1.pdb
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/obj/Debug/net8.0/linq_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/obj/Debug/net8.0/linq_1.AssemblyInfoInputs.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/obj/Debug/net8.0/linq_1.AssemblyInfo.cs
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/obj/Debug/net8.0/linq_1.csproj.CoreCompileInputs.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/obj/Debug/net8.0/linq_1.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/obj/Debug/net8.0/refint/linq_1.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/obj/Debug/net8.0/linq_1.pdb
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/obj/Debug/net8.0/linq_1.genruntimeconfig.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/linq_1/linq_1/obj/Debug/net8.0/ref/linq_1.dll

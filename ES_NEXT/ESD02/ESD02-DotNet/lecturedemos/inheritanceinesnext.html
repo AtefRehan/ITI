@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        class Person {
+            constructor(_id, _name, _age) {
+                /*console.log(new.target.name);*/
+                if (new.target.name == "Person") {
+                    throw new Error("Abstract class , you can't create an explicit object from it using new .....!!!!")
+                }
+                this.ID = _id;
+                this.Name = _name;
+                this.Age = _age;
+            }
+            Print() {
+                return `ID= ${this.ID} , Name = ${this.Name} , Age = ${this.Age}`;
+            }
+        }
+
+        class Student extends Person {
+            constructor(_id, _name, _age,_intake) {
+                // missed super constructor call
+                super(_id, _name, _age);
+                this.Intake = _intake;
+            }
+            Print() {
+                /*return `ID= ${this.ID} , Name = ${this.Name} , Age = ${this.Age} , Intake = ${this.Intake} `;*/
+                return `${super.Print()}, Intake = ${this.Intake} `;
+            }
+        }
+
+        class Employee extends Person {
+            constructor(_id, _name, _age, _salary) {
+                super(_id, _name, _age);
+                this.Salary = _salary;
+            }
+            Print() {
+                /*return `ID= ${this.ID} , Name = ${this.Name} , Age = ${this.Age} , Salary = ${this.Salary} `;*/
+                return `${super.Print()} , Salary = ${this.Salary} `;
+            }
+        }
+
+
+
+
+        class Manager {
+            constructor(_id, _name, _age, _salary,_comm) {
+                this.ID = _id;
+                this.Name = _name;
+                this.Age = _age;
+                this.Comm = _comm;
+            }
+            //Print() {
+            //    return `ID= ${this.ID} , Name = ${this.Name} , Age = ${this.Age} , Salary = ${tis.Salary}, Comm = ${this.Comm}`;
+            //}
+        }
+        //let pone = new Person(1000, "PErsonname", 10);// we need to prohibt expclit creation for an obejct from type person
+
+        let stdone = new Student(10, "Studentone", 20, 43);
+        ////console.log(stdone.Print());
+        //let empone = new Employee(100, "emp", 30, 1000);
+        ////console.log( empone.Print());
+        //let mgrone = new Manager(100, "managername", 50, 1000, 1000);
+
+        //let staff = [stdone, empone, mgrone,pone, "Hamada"];
+        //for (var i = 0; i < staff.length; i++) {
+        //    if (staff[i] instanceof Person)
+        //    console.log(staff[i].Print());
+        //}
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

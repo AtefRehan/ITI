@@ -1,0 +1,14 @@
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/bin/Debug/net8.0/lab6
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/bin/Debug/net8.0/lab6.deps.json
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/bin/Debug/net8.0/lab6.runtimeconfig.json
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/bin/Debug/net8.0/lab6.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/bin/Debug/net8.0/lab6.pdb
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/obj/Debug/net8.0/lab6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/obj/Debug/net8.0/lab6.AssemblyInfoInputs.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/obj/Debug/net8.0/lab6.AssemblyInfo.cs
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/obj/Debug/net8.0/lab6.csproj.CoreCompileInputs.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/obj/Debug/net8.0/lab6.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/obj/Debug/net8.0/refint/lab6.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/obj/Debug/net8.0/lab6.pdb
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/obj/Debug/net8.0/lab6.genruntimeconfig.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab6/lab6/lab6/obj/Debug/net8.0/ref/lab6.dll

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        //nasr
+        function getAllStudents() {
+            return new Promise((resolve, reject) => {
+                setTimeout(function () {
+                    console.log("From get all students");
+                    let allstduentsarr = [{ ID: 100, Name: "Kareem" }, { ID: 200, Name: "Moustafa" }, { ID: 300, Name: "Mona" }];
+                    resolve( allstduentsarr);
+
+                }, 4000);
+
+            })
+        }
+        //ali
+        function displayAllStudents(allstudents) {
+            return new Promise((resolve, reject) => {
+
+                setTimeout(function () {
+                    console.log("From Display All students");
+                    allstudents.forEach(function (std) { console.log(`ID = ${std.ID} , Name = ${std.Name}`); });
+                    let alldepts = [{ DeptID: 1000, DeptName: "PD", DeptMgr: "Managerone" }, { DeptID: 2000, DeptName: "OS", DeptMgr: "Managertwo" }, { DeptID: 3000, DeptName: "AI", DeptMgr: "Managerthree" }];
+                    resolve(alldepts);
+                }, 4000);
+            });
+        }
+        //mohamd
+        function displayAllDepts(alldeptsarr) {
+            return new Promise((resolve, reject) => {
+                setTimeout(function () {
+                    console.log("from display all departments");
+                    let allmgrsarr = [];
+                    alldeptsarr.forEach(function (dept) { console.log(`Dept ID = ${dept.DeptID} , Dept Name = ${dept.DeptName}`); allmgrsarr.push(dept.DeptMgr); });
+                    resolve(allmgrsarr);
+
+                }, 4000);
+            })
+        }
+        //ibraheem
+        function displayAllManagers(allmgrarr) {
+            console.log('from display all managers');
+            allmgrarr.forEach(function (mgrname) { console.log(`Manager Name =  ${mgrname}`); });
+        }
+
+        //dina
+        console.log("script start");
+       
+
+
+            getAllStudents().then((allstudents) => {
+                displayAllStudents(allstudents).then((alldepsts) => {
+                    displayAllDepts(alldepsts).then((allmanagers) => {
+                        displayAllManagers(allmanagers);
+                    });//end of display all depts
+                });//end of display allstudents
+
+            });//end of getallstudents
+       
+        console.log("script end");
+        //let alldepts = displayAllStudents(allstds);
+        //let allmgrs = displayAllDepts(alldepts);
+        //displayAllManagers(allmgrs);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

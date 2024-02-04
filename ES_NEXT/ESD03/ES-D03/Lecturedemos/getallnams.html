@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function getAllNames() {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+
+                    let allnames = ["Ali", "Ahmed", "Atef"];
+                    //return allnames;
+                    let test = true;
+                    if (test)
+                        resolve(allnames);
+                    else reject("Sorry , server is busy now");
+
+                }, 4000);
+            })
+        };
+        
+        getAllNames().then((data) => { console.log(data); })
+                    .catch((r) => { console.log(r + " Never Mind"); })
+        console.log("Hello world");
+        // any prmoise  : 3 phases :
+        //1- pending =>  will change from pending to fulfilled(result) or rejected(reason)
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

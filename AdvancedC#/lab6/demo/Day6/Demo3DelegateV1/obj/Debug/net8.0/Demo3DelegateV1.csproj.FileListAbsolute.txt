@@ -1,0 +1,14 @@
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\bin\Debug\net8.0\Demo3DelegateV1.exe
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\bin\Debug\net8.0\Demo3DelegateV1.deps.json
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\bin\Debug\net8.0\Demo3DelegateV1.runtimeconfig.json
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\bin\Debug\net8.0\Demo3DelegateV1.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\bin\Debug\net8.0\Demo3DelegateV1.pdb
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\obj\Debug\net8.0\Demo3DelegateV1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\obj\Debug\net8.0\Demo3DelegateV1.AssemblyInfoInputs.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\obj\Debug\net8.0\Demo3DelegateV1.AssemblyInfo.cs
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\obj\Debug\net8.0\Demo3DelegateV1.csproj.CoreCompileInputs.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\obj\Debug\net8.0\Demo3DelegateV1.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\obj\Debug\net8.0\refint\Demo3DelegateV1.dll
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\obj\Debug\net8.0\Demo3DelegateV1.pdb
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\obj\Debug\net8.0\Demo3DelegateV1.genruntimeconfig.cache
+C:\Users\MAS-ALHassan\source\repos\Day6\Demo3DelegateV1\obj\Debug\net8.0\ref\Demo3DelegateV1.dll

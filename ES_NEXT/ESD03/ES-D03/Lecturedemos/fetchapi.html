@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        let allpostsasjs;
+        async function loadposts() {
+            allposts = await fetch("https://jsonplaceholder.typicode.com/posts");
+            allpostsasjs = await allposts.json();// return js object from json caller
+            allpostsasjs.forEach((post) => { document.write(`<li>${post.title}</li>`); })
+
+            localStorage.setItem("loaded", JSON.stringify(allpostsasjs));
+
+        }
+        loadposts();
+        const obj = {
+            ID: 100,
+            Name:"ahmed"
+        }
+        localStorage.setItem("myobj", JSON.stringify(obj));
+        let result = localStorage.getItem("myobj");
+        let resultasjs = JSON.parse(result);
+
+        const userdata = {
+            username: "nasr",
+            gender: "m",
+            color: "red"
+        };
+        localStorage.setItem('userinputs', JSON.stringify( userdata));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

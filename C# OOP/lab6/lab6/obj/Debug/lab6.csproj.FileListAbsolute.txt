@@ -1,0 +1,9 @@
+//Mac/Home/Desktop/C#/week1/lab6/lab6/bin/Debug/lab6.exe.config
+//Mac/Home/Desktop/C#/week1/lab6/lab6/bin/Debug/lab6.exe
+//Mac/Home/Desktop/C#/week1/lab6/lab6/bin/Debug/lab6.pdb
+//Mac/Home/Desktop/C#/week1/lab6/lab6/obj/Debug/lab6.csproj.AssemblyReference.cache
+//Mac/Home/Desktop/C#/week1/lab6/lab6/obj/Debug/lab6.csproj.CoreCompileInputs.cache
+//Mac/Home/Desktop/C#/week1/lab6/lab6/obj/Debug/lab6.exe
+//Mac/Home/Desktop/C#/week1/lab6/lab6/obj/Debug/lab6.pdb
+/Users/atef/Desktop/C#/week1/lab6/lab6/obj/Debug/lab6.exe
+/Users/atef/Desktop/C#/week1/lab6/lab6/obj/Debug/lab6.pdb

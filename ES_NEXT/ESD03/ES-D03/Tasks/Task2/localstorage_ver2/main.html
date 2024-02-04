@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MainPage</title>
+    <style>
+      img {
+        width: 30px;
+      }
+
+      .correct {
+        border: 3px solid green;
+      }
+
+      .incorrect {
+        border: 3px solid red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form method="get" action="localstorage.html">
+      <label for="name">Username:</label>
+      <input type="text" name="username" id="username" /><br /><br />
+
+      <label for="age">Enter your age:</label>
+      <input type="number" name="age" id="age" /><br />
+
+      <p>Select your gender:</p>
+      <input type="radio" id="female" name="gender" value="female" />
+      <img src="img1.jpg" alt="Female" />
+      <input type="radio" id="male" name="gender" value="male" />
+      <img src="img2.jpg" alt="Male" /><br />
+
+      <label for="Color">Select your favorite color:</label><br />
+      <select id="Color" name="favoriteColor" class="z">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+        <option value="purple">Purple</option></select
+      ><br /><br />
+
+      <input type="submit" value="Register" />
+    </form>
+    <script>
+      let _test = document.getElementById("username").value;
+      window.addEventListener("load", function () {
+        var username = document.getElementById("username");
+
+        username.addEventListener("blur", function () {
+          if (!validateusername()) {
+            this.className = "incorrect";
+            this.focus();
+            this.select();
+          } else {
+            this.className = "correct";
+          }
+        });
+        var age = document.getElementById("age");
+        age.addEventListener("blur", function () {
+          if (!validateage()) {
+            this.className = "incorrect";
+            this.focus();
+            this.select();
+          } else {
+            this.className = "correct";
+          }
+        });
+
+        window.document.forms[0].addEventListener("submit", function (e) {
+          if (
+            !(
+              validateusername() &&
+              validateage() &&
+              validategender() &&
+              validateselect()
+            )
+          ) {
+            e.preventDefault();
+            alert("please complete your data!");
+          } else {
+            var expiryDate = new Date(2025, 1, 1);
+            var name = document.getElementById("username").value;
+            var gender = "";
+
+            if (document.getElementById("female").checked) {
+              gender = "female";
+            } else if (document.getElementById("male").checked) {
+              gender = "male";
+            }
+
+            var color = document.getElementById("Color").value;
+
+            var age = document.getElementById("age").value;
+
+            var img = document.querySelector("img");
+            if (gender == "female") {
+              img.src = "img1.jpg";
+            } else {
+              img.src = "img2.jpg";
+            }
+            var localData = {
+              name: document.getElementById("username").value,
+              age: document.getElementById("age").value,
+              gender: document.querySelector('input[name="gender"]:checked')
+                .value,
+              color: document.getElementById("Color").value,
+            };
+            console.log(localData);
+            savaLocalStorage("Data", localData);
+          }
+        });
+      });
+
+      function validateusername() {
+        return username.value.match(/^[a-z]{3,6}$/);
+      }
+      function validateage() {
+        var agePattern = /^(2[0-9]|[3-7][0-9]|80)$/;
+
+        return age.value.match(agePattern);
+      }
+
+      function validategender() {
+        var femaleChecked = document.getElementById("female").checked;
+        var maleChecked = document.getElementById("male").checked;
+
+        return femaleChecked || maleChecked;
+      }
+      function validateselect() {
+        var selectedColor = document.getElementById("Color").value;
+
+        return selectedColor !== "";
+      }
+      function savaLocalStorage(key, value) {
+        localStorage.setItem(key, JSON.stringify(value));
+      }
+    </script>
+  </body>
+</html>

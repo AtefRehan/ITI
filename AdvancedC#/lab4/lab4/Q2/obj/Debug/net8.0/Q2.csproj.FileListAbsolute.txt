@@ -1,0 +1,14 @@
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/bin/Debug/net8.0/Q2
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/bin/Debug/net8.0/Q2.deps.json
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/bin/Debug/net8.0/Q2.runtimeconfig.json
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/bin/Debug/net8.0/Q2.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/bin/Debug/net8.0/Q2.pdb
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/obj/Debug/net8.0/Q2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/obj/Debug/net8.0/Q2.AssemblyInfoInputs.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/obj/Debug/net8.0/Q2.AssemblyInfo.cs
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/obj/Debug/net8.0/Q2.csproj.CoreCompileInputs.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/obj/Debug/net8.0/Q2.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/obj/Debug/net8.0/refint/Q2.dll
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/obj/Debug/net8.0/Q2.pdb
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/obj/Debug/net8.0/Q2.genruntimeconfig.cache
+/Users/atef/Desktop/ITI DOTNET_TRACK/AdvancedC#/lab4/lab4/Q2/obj/Debug/net8.0/ref/Q2.dll

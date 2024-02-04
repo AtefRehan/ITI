@@ -1,0 +1,7 @@
+\\Mac\Home\Desktop\C#\week1\lab7_b\lab7_b\obj\Debug\lab7_b.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\C#\week1\lab7_b\lab7_b\obj\Debug\lab7_b.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\C#\week1\lab7_b\lab7_b\bin\Debug\lab7_b.exe.config
+\\Mac\Home\Desktop\C#\week1\lab7_b\lab7_b\bin\Debug\lab7_b.exe
+\\Mac\Home\Desktop\C#\week1\lab7_b\lab7_b\bin\Debug\lab7_b.pdb
+\\Mac\Home\Desktop\C#\week1\lab7_b\lab7_b\obj\Debug\lab7_b.exe
+\\Mac\Home\Desktop\C#\week1\lab7_b\lab7_b\obj\Debug\lab7_b.pdb
